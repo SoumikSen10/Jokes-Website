@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /*  border: 4px solid red; */
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    background-image: linear-gradient(to right top, #204070, #00719a, #00a1a6, #5bcd98, #d1f08a);
+    justify-content: center;
+    align-items: center;
+    padding: 45px 60px;
+    /*  border: 4px solid red; */
+    border-radius: 18px;
+    box-shadow: 5px 10px 5px rgba(0, 0.3, 0);
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*   border: 4px solid red; */
+    padding: 19px 25px;
+    font-size: x-large;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    /*  border: 4px solid orange; */
+    border-radius: 20px;
+}
+
+.joke {
+    display: flex;
+    margin: auto;
+    /* border: 4px solid red; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    padding: 48px 65px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    /* border: 4px solid red; */
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    padding: 10px 65px;
+    font-size: 16px;
+    /* border: 4px solid red; */
+    margin-top: 20px;
+    border-radius: 45px;
+    font-weight: bold;
+    font-size: 20px;
+    border: yellow;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: blanchedalmond;
+}
